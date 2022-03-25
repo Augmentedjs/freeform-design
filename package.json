@@ -24,7 +24,7 @@
         "augmentedjs": "^1.5.5",
         "augmentedjs-presentation": "^1.7.0",
         "buffer-shims": "^1.0.0",
-        "electron": "^6.0.10",
+        "electron": "^13.6.6",
         "file-saver": "^2.0.2",
         "handlebars": "^4.3.3",
         "jszip": "^3.2.2",
