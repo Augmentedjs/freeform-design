@@ -1,12 +1,13 @@
 const   Augmented = require("augmentedjs");
 	    Augmented.Presentation = require("augmentedjs-presentation"),
         Handlebars = require("handlebars");
-const   CONSTANTS = require("./constants.js"),
-        app = require("./application.js"),
-        Models = require("./models.js"),
-        EditDialog = require("./editDialog.js"),
-        stylesheetsTemplate = require("./templates/stylesheetsTemplate.js"),
-        logger = require("./logger.js");
+const CONSTANTS = require("./constants.js"),
+  app = require("./application.js"),
+  Models = require("./models.js"),
+  EditDialog = require("./editDialog.js");
+// ,
+//         stylesheetsTemplate = require("./templates/stylesheetsTemplate.js"),
+//         logger = require("./logger.js");
 
 var StylesheetCollection = Augmented.Collection.extend({
     model: Models.StylesheetsModel

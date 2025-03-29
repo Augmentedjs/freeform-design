@@ -1,15 +1,14 @@
 {
     "name": "freeform-design",
-    "version": "1.7.4",
+    "version": "1.7.5",
     "description": "The Augmented.js Framework - freeForm Design Application.",
     "main": "freeform-design.js",
     "scripts": {
-        "start": "electron main.js",
         "test": "jasmine-node ./test --verbose",
         "lint": "jshint **.js",
         "build-ugly": "browserify index.js | uglifyjs -c -m --screw-ie8 - > freeform-design.js",
         "build": "browserify index.js > freeform-design.js",
-        "kiosk": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --chrome-frame --kiosk --window-size=1280,720 ./index.html"
+        "kiosk": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --chrome-frame --kiosk --window-size=1280,720 --user-data-dir='/tmp/freeform-profile' --disable-web-security --allow-file-access-from-files --disable-features=IsolateOrigins,site-per-process ./index.html"
     },
     "repository": {
         "type": "git",
@@ -24,7 +23,6 @@
         "augmentedjs": "^1.5.5",
         "augmentedjs-presentation": "^1.7.0",
         "buffer-shims": "^1.0.0",
-        "electron": "^6.0.10",
         "file-saver": "^2.0.2",
         "handlebars": "^4.3.3",
         "jszip": "^3.2.2",

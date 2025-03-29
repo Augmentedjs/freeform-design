@@ -1,12 +1,13 @@
 const   Augmented = require("augmentedjs");
         Augmented.Presentation = require("augmentedjs-presentation"),
         Handlebars = require("handlebars");
-const   CONSTANTS = require("./constants.js"),
-        app = require("./application.js"),
-        Models = require("./models.js"),
-        EditDialog = require("./editDialog.js"),
-        AbstractEditorView = require("./abstractEditorView.js"),
-        controllersTemplate = require("./templates/controllersTemplate.js");
+const CONSTANTS = require("./constants.js"),
+  app = require("./application.js"),
+  Models = require("./models.js"),
+  EditDialog = require("./editDialog.js"),
+  AbstractEditorView = require("./abstractEditorView.js");
+        // ,
+        // controllersTemplate = require("./templates/controllersTemplate.js");
 
 var EditControllerDialog = EditDialog.extend({
     title: "Edit Controller",

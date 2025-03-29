@@ -1,8 +1,9 @@
 const   Augmented = require("augmentedjs");
 	    Augmented.Presentation = require("augmentedjs-presentation");
-const   CONSTANTS = require("./constants.js"),
-		app = require("./application.js"),
-		overviewTemplate = require("./templates/overviewTemplate.js");
+const CONSTANTS = require("./constants.js"),
+  app = require("./application.js");
+// ,
+// 		overviewTemplate = require("./templates/overviewTemplate.js");
 
 //OverviewView
 module.exports = Augmented.Presentation.DecoratorView.extend({
