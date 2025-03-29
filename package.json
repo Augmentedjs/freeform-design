@@ -5,9 +5,8 @@
   "main": "freeform-design.js",
   "scripts": {
     "start": "electron main.js",
-    "test": "jasmine-node ./test --verbose",
     "lint": "jshint **.js",
-    "build-ugly": "browserify index.js | uglifyjs -c -m --screw-ie8 - > freeform-design.js",
+    "build-ugly": "browserify index.js | uglifyjs -c -m > freeform-design.js",
     "build": "browserify index.js > freeform-design.js",
     "kiosk": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --chrome-frame --kiosk --window-size=1280,720 --user-data-dir='/tmp/freeform-profile' --disable-web-security --allow-file-access-from-files --disable-features=IsolateOrigins,site-per-process ./index.html"
   },
@@ -16,7 +15,9 @@
     "url": "git+https://github.com/Augmentedjs/freeform-design.git"
   },
   "keywords": [
-    "augmentedjs"
+    "augmentedjs",
+    "designer",
+    "app builder"
   ],
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
@@ -25,14 +26,13 @@
     "augmentedjs-presentation": "^1.7.0",
     "buffer-shims": "^1.0.0",
     "electron": "^35.1.2",
-    "file-saver": "^2.0.2",
-    "handlebars": "^4.3.3",
+    "file-saver": "^2.0.5",
+    "handlebars": "^4.3.5",
     "jszip": "^3.2.2",
-    "xhr2": "^0.2.0"
+    "xhr2": "^0.2.1"
   },
   "devDependencies": {
-    "browserify": "^16.5.0",
-    "jasmine-node": "^3.0.0",
+    "browserify": "^16.5.2",
     "jshint": "latest",
     "uglify-js": "latest"
   },
