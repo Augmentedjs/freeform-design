@@ -1,5 +1,5 @@
 module.exports.APP_NAME = "freeform";
-module.exports.VERSION = "1.7.5";
+module.exports.VERSION = "1.7.6";
 module.exports.TITLE = "freeForm Designer (Legacy)";
 module.exports.WEBSITE = "http://www.augmentedjs.com";
 
