@@ -1,15 +1,16 @@
 const   Augmented = require("augmentedjs");
 	    Augmented.Presentation = require("augmentedjs-presentation"),
         Handlebars = require("handlebars");
-const   CONSTANTS = require("./constants.js"),
-        app = require("./application.js"),
-        Models = require("./models.js"),
-        EditDialog = require("./editDialog.js"),
-        BasicInfoView = require("./basicInfoView.js"),
-        AbstractEditorMediator = require("./abstractEditorMediator.js"),
-        logger = require("./logger.js"),
-        AbstractEditorView = require("./abstractEditorView.js"),
-        observeViewsListTemplate = require("./templates/observeViewsListTemplate.js");
+const CONSTANTS = require("./constants.js"),
+  app = require("./application.js"),
+  Models = require("./models.js"),
+  EditDialog = require("./editDialog.js"),
+  BasicInfoView = require("./basicInfoView.js"),
+  AbstractEditorMediator = require("./abstractEditorMediator.js"),
+  logger = require("./logger.js"),
+  AbstractEditorView = require("./abstractEditorView.js");
+// ,
+//         observeViewsListTemplate = require("./templates/observeViewsListTemplate.js");
 
 const VIEWPORT_OFFSET = 160;
 

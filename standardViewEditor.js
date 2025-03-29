@@ -7,7 +7,7 @@ const   CONSTANTS = require("./constants.js"),
         EditDialog = require("./editDialog.js"),
         AbstractEditorMediator = require("./abstractEditorMediator.js"),
         BasicInfoView = require("./basicInfoView.js"),
-        permissionsTemplate = require("./templates/permissionsTemplate.js"),
+        // permissionsTemplate = require("./templates/permissionsTemplate.js"),
         logger = require("./logger.js");
 
 var PermissionCollection = Augmented.Collection.extend({

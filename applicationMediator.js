@@ -63,9 +63,10 @@ module.exports = Augmented.Presentation.Mediator.extend({
         });
 				this.on(CONSTANTS.MESSAGES.CLOSE, function() {
 						// close the app if electron is running
-					 	const remote = require('electron').remote;
-					 	var window = remote.getCurrentWindow();
-       			window.close();
+					 	// const remote = require('electron').remote;
+					 	// var window = remote.getCurrentWindow();
+       			// window.close();
+          console.info("No Election");
         });
         // end hamburger events
     }
